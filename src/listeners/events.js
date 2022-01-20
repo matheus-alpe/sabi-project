@@ -1,3 +1,6 @@
+/**
+ * @param { import('@slack/bolt/').App } app 
+ */
 module.exports = function mentionsListner(app) {
     app.event('app_home_opened', ({ event, say }) => {  
         console.log('Eventou `app_home_opened` executou');

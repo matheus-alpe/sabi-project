@@ -1,4 +1,4 @@
 module.exports = function listeners(app) {
-    require('./mentions')(app);
+    require('./events')(app);
     require('./messages')(app);
 }
