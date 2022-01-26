@@ -1,4 +1,4 @@
-const { getTasksFromSection } = require('../asana');
+const { getTasksFromSection } = require('../../asana');
 
 /**
  * @param { import('@slack/bolt/').App } app 
